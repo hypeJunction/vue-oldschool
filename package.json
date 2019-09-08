@@ -1,0 +1,46 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "npm run components:parse && cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "prod": "npm run production",
+        "production": "npm run components:parse && cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "components:parse": "node node_modules/@hypejunction/vue-scanner/cli/scan.js"
+    },
+    "dependencies": {
+        "cross-env": "^5.2.0",
+        "global": "^4.4.0",
+        "laravel-mix": "^4.1.2",
+        "lodash.camelcase": "^4.3.0",
+        "vue": "^2.6.10",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "devDependencies": {
+        "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+        "@hypejunction/vue-scanner": "^1.1.3"
+    },
+    "vue-scanner": {
+        "src": {
+            "entry": {
+                "dirs": [
+                    "./src/entry/"
+                ],
+                "async": true
+            },
+            "elements": {
+                "dirs": [
+                    "./src/elements/"
+                ],
+                "async": true
+            }
+        },
+        "target": {
+            "js": "./src/components.js",
+            "json": "./src/components.json"
+        },
+        "chunks": true,
+        "requestChunks": true,
+        "chunkPrefix": "components/"
+    }
+}

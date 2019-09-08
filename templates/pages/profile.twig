@@ -1,0 +1,14 @@
+{% extends "shell.twig" %}
+
+{% block title %}{{ pageTitle }}{% endblock %}
+
+{% block content %}
+    <h1 class="ui header">{{ pageTitle }}</h1>
+
+    <div class="ui container">
+        <div
+                data-vue-component="CocktailProfile"
+                item="{{ item|json_encode|raw|escape }}"
+        ></div>
+    </div>
+{% endblock %}

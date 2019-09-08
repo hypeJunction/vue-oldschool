@@ -1,0 +1,17 @@
+{
+    "name": "hypejunction/vue-oldschool",
+    "description": "Demo for integration Vue with old school web apps",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ismayil Khayredinov",
+            "email": "ismayil.khayredinov@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "slim/slim": "^4.2",
+        "slim/psr7": "^0.5.0"
+    }
+}

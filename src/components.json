@@ -1,0 +1,30 @@
+[
+    {
+        "name": "CocktailCard",
+        "path": "D:/wamp/www/vue-oldschool/src/entry/CocktailCard.vue",
+        "group": "entry",
+        "async": true,
+        "relativePath": "./entry/CocktailCard.vue"
+    },
+    {
+        "name": "CocktailProfile",
+        "path": "D:/wamp/www/vue-oldschool/src/entry/CocktailProfile.vue",
+        "group": "entry",
+        "async": true,
+        "relativePath": "./entry/CocktailProfile.vue"
+    },
+    {
+        "name": "FavoriteButton",
+        "path": "D:/wamp/www/vue-oldschool/src/elements/FavoriteButton.vue",
+        "group": "elements",
+        "async": true,
+        "relativePath": "./elements/FavoriteButton.vue"
+    },
+    {
+        "name": "LikeButton",
+        "path": "D:/wamp/www/vue-oldschool/src/elements/LikeButton.vue",
+        "group": "elements",
+        "async": true,
+        "relativePath": "./elements/LikeButton.vue"
+    }
+]

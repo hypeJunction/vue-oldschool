@@ -1,0 +1,9 @@
+{
+    "/index.js": "/index.js",
+    "/manifest.js": "/manifest.js",
+    "/vue.js": "/vue.js",
+    "/components/elements/FavoriteButton.js": "/components/elements/FavoriteButton.js",
+    "/components/elements/LikeButton.js": "/components/elements/LikeButton.js",
+    "/components/entry/CocktailCard.js": "/components/entry/CocktailCard.js",
+    "/components/entry/CocktailProfile.js": "/components/entry/CocktailProfile.js"
+}
