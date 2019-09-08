@@ -1,5 +1,6 @@
 /cache
 /node_modules
 /vendor
+/.idea
 package-lock.json
 composer.lock
