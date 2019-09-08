@@ -20,5 +20,6 @@ npm install
 npm run prod
 
 # Run PHP server, go to your browser at localhost:8000
+cd public 
 php -S localhost:8000
 ```
